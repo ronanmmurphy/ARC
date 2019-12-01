@@ -4,7 +4,6 @@ Created on Sat Nov 30 20:30:39 2019
 
 @author: Ronan
 """
-import matplotlib.pyplot as plt
 import json
 
 def read_file(file):
@@ -31,13 +30,3 @@ def print_out(train_in, train_out, test_in, test_out, solve):
     if(test_out== output):
         print("Testing Data Verified!!!\n")
         
-def graphic(input):
-    
-    """
-    Function to plot grids and emulate testing interface.
-    input = A list of test input and computed output. 
-    """
-    for i in range(len(input)):
-        plt.matshow(input[i])
-        plt.show()
-    

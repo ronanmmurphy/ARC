@@ -31,11 +31,3 @@ def solve(inputs):
     return outter
 
 fj.print_out(train_in, train_out, test_in, test_out, solve)
-"""
-output = solve(input)
-print(output)
-
-plt_list = [train_in+test_in, train_out+test_out]
-fj.graphic(plt_list)
-
-"""
