@@ -9,21 +9,23 @@ Assignment 3: Hand-coding solutions for the Abstraction and Reasoning Corpus
 import sys
 import format_json as fj
 """
-input = [[1, 1, 0], [1, 1, 1], [0, 0, 0]]
-out = [[1, 1, 0], [1, 1, 1], [0, 0, 0], [0, 0, 0], [1, 1, 1], [1, 1, 0]]
+import sys and format json to give ability to read in json files
 """
 
-
+"""
+reads in the json files and splits the data into train and test
+"""
 file = str(sys.argv[1])
-train_in,train_out,test_in,test_out = fj.read_file(file)
+train_input,train_output,test_input,test_output = fj.read_file(file)
 
 """
 solve method used to to convert input into output
 reverse the input using the [::-1] function 
 then add the reversed input to the original ouput
+using the extend function
+append the array to another outter array to return the correct format
 return this array
 """
-
 
 def solve(inputs):
     out =[]
@@ -36,5 +38,9 @@ def solve(inputs):
         
     return out
 
-fj.print_out(train_in, train_out, test_in, test_out, solve)
+"""
+Compares the input and output data calling the print_out function
+"""
+
+fj.print_out(train_input, train_output, test_input, test_output, solve)
 
