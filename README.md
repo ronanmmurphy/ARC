@@ -51,9 +51,9 @@ The testing interface is located at `apps/testing_interface.html`. Open it in a 
 
 After loading a task, you will enter the test space, which looks like this:
 
-![test space](https://github.com/ronanmmurphy/ARC/tree/branch/apps/img/67a3c6ac_visualise.PNG)
-![test space](https://github.com/ronanmmurphy/ARC/tree/branch/apps/img/780d0b14_visualise.PNG)
-![test space](https://github.com/ronanmmurphy/ARC/tree/branch/apps/img/8be77c9e_visualise.PNG)
+![test space](/apps/img/67a3c6ac_visualise.PNG)
+![test space](/apps/img/780d0b14_visualise.PNG)
+![test space](/apps/img/8be77c9e_visualise.PNG)
 
 On the left, you will see the input/output pairs demonstrating the nature of the task. In the middle, you will see the current test input grid. On the right, you will see the controls you can use to construct the corresponding output grid.
 
