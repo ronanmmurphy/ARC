@@ -15,6 +15,13 @@ The chosen tasks are 67a3c6ac.json, 780d0b14.json, 8be77c9e.json, which are solv
 
 There is also an extra file which is used to format the data from the json file to be used for each task this is labelled format.py. It is imported to all three python scripts and is used to commonly to format the dataset and called by each solve method.
 
+The files can all be run through the command line using the following code(the path depends on where the file is stored on your local disk):
+
+python solution_67a3c6ac.py <<path_ ARC>>\ARC\data\training\67a3c6ac.json
+
+python solution_780d0b14.py <<path_ ARC>>\ARC\data\training\780d0b14.json 
+
+python solution_8be77c9e.py <<path_ ARC>>\ARC\data\training\78be77c9e.json 
 
 ## Task file format
 
